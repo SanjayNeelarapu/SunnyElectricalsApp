@@ -1,0 +1,44 @@
+name: sunnny_electricals
+description: A Flutter app for managing products in an electrical store.
+
+# The Flutter SDK version
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management (use one depending on your preference)
+  provider: ^6.1.2
+
+  # SQLite database
+  sqflite: ^2.2.8
+  path: ^1.8.3
+
+  # Additional useful packages
+  fluttertoast: ^8.2.1 # For displaying toast messages
+  intl: ^0.18.0 # For date formatting or internationalization
+  http: ^1.1.0 # If you need to handle API calls (optional)
+
+  # UI Enhancements
+  flutter_slidable: ^3.0.0 # For swipe-to-delete functionality (optional)
+
+  # icon for my app 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linter for code quality
+  flutter_lints: ^2.0.0
+
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "D:/Sunny Electricals.png"
+
