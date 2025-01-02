@@ -1,7 +1,7 @@
 # SunnyElectricalsApp
 A Flutter-based mobile application designed for managing product data in my father's electrical store. It supports CRUD operations, including adding, searching, editing, and deleting product records, with features like product images, pricing details, and specifications.
 
-# Electrical Store Product Management App
+### Electrical Store Product Management App
 
 This is a mobile application built using **Flutter** to manage product data for my farhers's electrical store. The app provides an intuitive GUI for storing, viewing, editing, and searching product details, including:
 
